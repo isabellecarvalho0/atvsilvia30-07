@@ -1,0 +1,151 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos do Cabeçalho */
+header {
+    background-color: #5c4f99;
+    color: #fff;
+    padding: 1em 0;
+    text-align: center;
+    position: relative;
+}
+
+header h1 {
+    margin-bottom: 0.5em;
+    font-size: 2em;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1em;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+#accessibility {
+    position: absolute;
+    top: 1em;
+    right: 1em;
+}
+
+#accessibility button {
+    background-color: #007acc;
+    border: none;
+    color: white;
+    padding: 0.5em;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-right: 0.5em;
+}
+
+#accessibility button:hover {
+    background-color: #005fa3;
+}
+
+/* Estilos do Corpo Principal */
+main {
+    padding: 2em;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+section {
+    margin-bottom: 2em;
+}
+
+h2 {
+    color: #5c4f99;
+    font-size: 1.75em;
+    border-bottom: 2px solid #5c4f99;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+}
+
+/* Estilos dos Artigos */
+article {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1.5em;
+    margin-bottom: 1.5em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+article h3 {
+    color: #333;
+    margin-bottom: 1em;
+    font-size: 1.5em;
+}
+
+article img {
+    width: 45%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1em;
+}
+
+/* Estilos do Formulário */
+form label {
+    display: block;
+    margin-top: 1em;
+    font-weight: bold;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 0.75em;
+    margin-top: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    display: inline-block;
+    padding: 0.75em 1.5em;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1em;
+    font-size: 1em;
+}
+
+form button:hover {
+    background-color: #005fa3;
+}
+
+/* Estilos do Rodapé */
+footer {
+    background-color: #5c4f99;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
